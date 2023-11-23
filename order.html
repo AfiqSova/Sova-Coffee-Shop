@@ -1,0 +1,47 @@
+<title>Coffee Shop</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>Sova Coffee Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="coffee shop.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="order.html">Order</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <body>
+        <h1>Coffee Order Form</h1>
+    
+        <form id="orderForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="coffeeType">Coffee Type:</label>
+            <select id="coffeeType" name="coffeeType" required>
+                <option value="espresso">Espresso</option>
+                <option value="cappuccino">Cappuccino</option>
+                <option value="americano">Americano</option>
+                <option value="latte">Latte</option>
+                <option value="mocha">Mocha</option>
+            </select>
+    
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+    
+            <button type="button" onclick="submitForm()">Submit Order</button>
+        </form>
+    
+        <script src="coffee.js"></script>
+    </body>
+    
+    </html>
