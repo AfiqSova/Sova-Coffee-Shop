@@ -23,7 +23,7 @@ function updateCart() {
   totalElement.textContent = `Total: $${totalPrice.toFixed(2)}`;
 }
 function checkout() {
-    // Implement the checkout logic here
+  
     alert('Checkout functionality will be implemented in the future.');
   }
   
